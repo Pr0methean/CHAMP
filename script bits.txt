@@ -1,0 +1,1 @@
+sed 's/#.*$//' animusic.txt | sed '/^$/d' | shuf
